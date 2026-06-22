@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,--dependency-file=CMakeFiles/Ocean.dir/link.d -Wl,-soname,libOcean.so -o libOcean.so CMakeFiles/Ocean.dir/src/Application.cpp.o
