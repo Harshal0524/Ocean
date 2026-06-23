@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/Neo/GameEngine/Ocean/build",
+  "command": "/usr/bin/g++ -DOcean_EXPORTS -I/home/Neo/GameEngine/Ocean/Engine/include -g -std=gnu++20 -fPIC -o Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o -c /home/Neo/GameEngine/Ocean/Engine/src/Application.cpp",
+  "file": "/home/Neo/GameEngine/Ocean/Engine/src/Application.cpp",
+  "output": "/home/Neo/GameEngine/Ocean/build/Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o"
+},
+{
+  "directory": "/home/Neo/GameEngine/Ocean/build",
+  "command": "/usr/bin/g++ -I/home/Neo/GameEngine/Ocean/Engine/include -g -std=gnu++20 -o Sandbox/CMakeFiles/Sandbox.dir/src/main.cpp.o -c /home/Neo/GameEngine/Ocean/Sandbox/src/main.cpp",
+  "file": "/home/Neo/GameEngine/Ocean/Sandbox/src/main.cpp",
+  "output": "/home/Neo/GameEngine/Ocean/build/Sandbox/CMakeFiles/Sandbox.dir/src/main.cpp.o"
+}
+]

@@ -1,0 +1,5 @@
+# ninja log v7
+3	90	1782257714627719941	Sandbox/CMakeFiles/Sandbox.dir/src/main.cpp.o	377e9ccea7ed1890
+3	1664	1782257714626719923	Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o	f5e46b07f1b89b28
+1665	1854	1782257716290299114	Engine/libOcean.so	f96aeed22a615ac9
+1854	2042	1782257716477753665	Sandbox/Sandbox	65a89f68ab503071
