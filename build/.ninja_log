@@ -1,5 +1,17 @@
 # ninja log v7
-3	90	1782257714627719941	Sandbox/CMakeFiles/Sandbox.dir/src/main.cpp.o	377e9ccea7ed1890
-3	1664	1782257714626719923	Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o	f5e46b07f1b89b28
-1665	1854	1782257716290299114	Engine/libOcean.so	f96aeed22a615ac9
-1854	2042	1782257716477753665	Sandbox/Sandbox	65a89f68ab503071
+2	20	1782278731680281149	Sandbox/CMakeFiles/Sandbox.dir/src/main.cpp.o	a117782f6c42fb3c
+2	1717	1782278731680005402	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o	7e7d4d9e80ac266d
+2	1866	1782278731679585241	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o	866e0ee37f4eb35f
+2	1915	1782278731680149013	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o	194259f3563d157b
+2	1945	1782278731679799115	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o	6ca7897d466e26d6
+1	2155	1782278731679233311	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o	4e0141da58547eb0
+1	2203	1782278731679398779	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o	ec2e1ed2ff60df98
+1	5039	1782278731679088505	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o	e29cc61874ebcdf5
+5039	5153	1782278736717335114	_deps/spdlog-build/libspdlogd.a	4b795de9b0ee819a
+1	5939	1782278731677782160	Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o	e1774334e4de0fb7
+5939	6063	1782278737615896259	Engine/libOcean.so	f96aeed22a615ac9
+6063	6107	1782278737739898641	Sandbox/Sandbox	65a89f68ab503071
+1	21	1782280919244379853	Sandbox/CMakeFiles/Sandbox.dir/src/main.cpp.o	a117782f6c42fb3c
+1	5620	1782280919242511385	Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o	e1774334e4de0fb7
+5620	5743	1782280924861617081	Engine/libOcean.so	f96aeed22a615ac9
+5743	5788	1782280924984619395	Sandbox/Sandbox	65a89f68ab503071

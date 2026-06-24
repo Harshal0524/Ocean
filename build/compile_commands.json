@@ -1,13 +1,55 @@
 [
 {
   "directory": "/home/Neo/GameEngine/Ocean/build",
-  "command": "/usr/bin/g++ -DOcean_EXPORTS -I/home/Neo/GameEngine/Ocean/Engine/include -g -std=gnu++20 -fPIC -o Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o -c /home/Neo/GameEngine/Ocean/Engine/src/Application.cpp",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include -g -std=c++20 -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/spdlog.cpp",
+  "file": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/spdlog.cpp",
+  "output": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+},
+{
+  "directory": "/home/Neo/GameEngine/Ocean/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include -g -std=c++20 -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "file": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "output": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+},
+{
+  "directory": "/home/Neo/GameEngine/Ocean/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include -g -std=c++20 -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "file": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "output": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+},
+{
+  "directory": "/home/Neo/GameEngine/Ocean/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include -g -std=c++20 -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "file": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "output": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+},
+{
+  "directory": "/home/Neo/GameEngine/Ocean/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include -g -std=c++20 -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/async.cpp",
+  "file": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/async.cpp",
+  "output": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o"
+},
+{
+  "directory": "/home/Neo/GameEngine/Ocean/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include -g -std=c++20 -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/cfg.cpp",
+  "file": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/cfg.cpp",
+  "output": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+},
+{
+  "directory": "/home/Neo/GameEngine/Ocean/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include -g -std=c++20 -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "file": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "output": "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o"
+},
+{
+  "directory": "/home/Neo/GameEngine/Ocean/build",
+  "command": "/usr/bin/g++ -DOcean_EXPORTS -DSPDLOG_FWRITE_UNLOCKED -I/home/Neo/GameEngine/Ocean/Engine/include -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include -g -std=gnu++20 -fPIC -o Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o -c /home/Neo/GameEngine/Ocean/Engine/src/Application.cpp",
   "file": "/home/Neo/GameEngine/Ocean/Engine/src/Application.cpp",
   "output": "/home/Neo/GameEngine/Ocean/build/Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o"
 },
 {
   "directory": "/home/Neo/GameEngine/Ocean/build",
-  "command": "/usr/bin/g++ -I/home/Neo/GameEngine/Ocean/Engine/include -g -std=gnu++20 -o Sandbox/CMakeFiles/Sandbox.dir/src/main.cpp.o -c /home/Neo/GameEngine/Ocean/Sandbox/src/main.cpp",
+  "command": "/usr/bin/g++ -DSPDLOG_FWRITE_UNLOCKED -I/home/Neo/GameEngine/Ocean/Engine/include -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include -g -std=gnu++20 -o Sandbox/CMakeFiles/Sandbox.dir/src/main.cpp.o -c /home/Neo/GameEngine/Ocean/Sandbox/src/main.cpp",
   "file": "/home/Neo/GameEngine/Ocean/Sandbox/src/main.cpp",
   "output": "/home/Neo/GameEngine/Ocean/build/Sandbox/CMakeFiles/Sandbox.dir/src/main.cpp.o"
 }

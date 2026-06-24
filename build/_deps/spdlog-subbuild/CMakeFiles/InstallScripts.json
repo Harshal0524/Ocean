@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/Neo/GameEngine/Ocean/build/_deps/spdlog-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

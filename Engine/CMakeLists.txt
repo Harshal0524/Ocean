@@ -9,3 +9,7 @@ add_library(Ocean SHARED
 target_include_directories(Ocean PUBLIC
     include
 )
+
+target_link_libraries(Ocean PUBLIC
+    spdlog::spdlog_header_only
+)

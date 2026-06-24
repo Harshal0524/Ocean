@@ -1,8 +1,10 @@
-// Header file for all the engine services
+// Header file for all the Application services
 #pragma once
 
-class Application
-{
-public:
-    void Run();
-};
+namespace Ocean {
+
+    class Application {
+        public:
+        void Run();
+    };
+}
