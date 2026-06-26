@@ -1,10 +1,11 @@
 #include <iostream>
-#include "/home/Neo/GameEngine/Ocean/Engine/include/Ocean/Application.h"
+#include "Ocean/Application.h"
+#include "Ocean/Core.h"
 #include <spdlog/spdlog.h>
 
 namespace Ocean {
     void Application::Run() {
         std::cout << "Ocean Engine running!" << std::endl;
-        spdlog::info("splog is linked and working");
+        OCEAN_INFO("Looging macros are working");
     }
 }
