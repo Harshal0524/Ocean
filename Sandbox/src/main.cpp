@@ -1,4 +1,4 @@
-#include "/home/Neo/GameEngine/Ocean/Engine/include/Ocean/Application.h"
+#include "Ocean/Application.h"
 
 int main()
 {
