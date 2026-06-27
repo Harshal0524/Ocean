@@ -1,15 +1,15 @@
-// Header file for all the Application services
 #pragma once
 
 #include "Ocean/Core.h"
+#include "Ocean/Log.h"
 
 namespace Ocean {
 
     class Application {
     public:
+        virtual ~Application() = default;
         void Run();
-
-    private:
-
     };
+
+    Application* CreateApplication();
 }
