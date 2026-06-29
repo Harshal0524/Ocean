@@ -214,6 +214,16 @@ build Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o: CXX_COMPILER__Ocean_uns
   OBJECT_FILE_DIR = Engine/CMakeFiles/Ocean.dir/src
   TARGET_SUPPORT_DIR = Engine/CMakeFiles/Ocean.dir
 
+build Engine/CMakeFiles/Ocean.dir/src/Events/Event.cpp.o: CXX_COMPILER__Ocean_unscanned_Debug /home/Neo/GameEngine/Ocean/Engine/src/Events/Event.cpp || cmake_object_order_depends_target_Ocean
+  CONFIG = Debug
+  DEFINES = -DOcean_EXPORTS -DSPDLOG_FWRITE_UNLOCKED
+  DEP_FILE = Engine/CMakeFiles/Ocean.dir/src/Events/Event.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fPIC
+  INCLUDES = -I/home/Neo/GameEngine/Ocean/Engine/include -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include
+  OBJECT_DIR = Engine/CMakeFiles/Ocean.dir
+  OBJECT_FILE_DIR = Engine/CMakeFiles/Ocean.dir/src/Events
+  TARGET_SUPPORT_DIR = Engine/CMakeFiles/Ocean.dir
+
 build Engine/CMakeFiles/Ocean.dir/src/Log.cpp.o: CXX_COMPILER__Ocean_unscanned_Debug /home/Neo/GameEngine/Ocean/Engine/src/Log.cpp || cmake_object_order_depends_target_Ocean
   CONFIG = Debug
   DEFINES = -DOcean_EXPORTS -DSPDLOG_FWRITE_UNLOCKED
@@ -232,7 +242,7 @@ build Engine/CMakeFiles/Ocean.dir/src/Log.cpp.o: CXX_COMPILER__Ocean_unscanned_D
 #############################################
 # Link the shared library Engine/libOcean.so
 
-build Engine/libOcean.so: CXX_SHARED_LIBRARY_LINKER__Ocean_Debug Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o Engine/CMakeFiles/Ocean.dir/src/Log.cpp.o
+build Engine/libOcean.so: CXX_SHARED_LIBRARY_LINKER__Ocean_Debug Engine/CMakeFiles/Ocean.dir/src/Application.cpp.o Engine/CMakeFiles/Ocean.dir/src/Events/Event.cpp.o Engine/CMakeFiles/Ocean.dir/src/Log.cpp.o
   CONFIG = Debug
   DEP_FILE = Engine/CMakeFiles/Ocean.dir/link.d
   LANGUAGE_COMPILE_FLAGS = -g

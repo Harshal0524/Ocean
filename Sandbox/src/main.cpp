@@ -1,9 +1,14 @@
 #include "Ocean/Application.h"
+#include "Ocean/EntryPoint.h"
 
-int main()
+class Sandbox : public Ocean::Application
 {
-    Ocean::Application app;
-    app.Run();
+public:
+    Sandbox() = default;
+    ~Sandbox() = default;
+};
 
-    return 0;
+Ocean::Application* Ocean::CreateApplication()
+{
+    return new Sandbox();
 }

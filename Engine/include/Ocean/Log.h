@@ -9,13 +9,18 @@ namespace Ocean
     public:
         static void Init();
         
-        static std::shared_ptr<spdlog::logger>& GetLogger() {
-            return s_Logger;
+        static std::shared_ptr<spdlog::logger>& GetEngineLogger() {
+            return s_EngineLogger;
+        };
+
+        static std::shared_ptr<spdlog::logger>& GetClientLogger() {
+            return s_ClientLogger;
         };
 
         static void Shutdown();
     private:
-    // Seperate core and clent logging TODO
-        static std::shared_ptr<spdlog::logger> s_Logger;
+    // Seperate core and clent logging
+        static std::shared_ptr<spdlog::logger> s_EngineLogger;
+        static std::shared_ptr<spdlog::logger> s_ClientLogger;
     };
 }

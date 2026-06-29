@@ -4,6 +4,7 @@ file(GLOB_RECURSE ENGINE_SOURCES
 
 add_library(Ocean SHARED
     ${ENGINE_SOURCES}
+    src/Events/Event.cpp
 )
 
 target_include_directories(Ocean PUBLIC
