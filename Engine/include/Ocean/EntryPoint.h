@@ -4,11 +4,11 @@
 #include "Ocean/Application.h"
 #include "Ocean/Core.h"
 
-int main() {
+int main(int argc, char** argv) {
     Ocean::Log::Init();
-    //TODO Fix the mactos for engine and client
-    //OCEAN_INFO("works!!");
-    //OCEAN_CORE_INFO("Engine is init");
+    
+    //OCEAN_INFO("Test for client log!!");
+    OCEAN_CORE_INFO("Engine log Initialized");
 
     auto app = Ocean::CreateApplication();
 
