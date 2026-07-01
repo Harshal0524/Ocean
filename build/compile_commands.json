@@ -49,12 +49,6 @@
 },
 {
   "directory": "/home/Neo/GameEngine/Ocean/build",
-  "command": "/usr/bin/g++ -DOcean_EXPORTS -DSPDLOG_FWRITE_UNLOCKED -I/home/Neo/GameEngine/Ocean/Engine/include -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include -g -std=gnu++20 -fPIC -o Engine/CMakeFiles/Ocean.dir/src/Events/Event.cpp.o -c /home/Neo/GameEngine/Ocean/Engine/src/Events/Event.cpp",
-  "file": "/home/Neo/GameEngine/Ocean/Engine/src/Events/Event.cpp",
-  "output": "/home/Neo/GameEngine/Ocean/build/Engine/CMakeFiles/Ocean.dir/src/Events/Event.cpp.o"
-},
-{
-  "directory": "/home/Neo/GameEngine/Ocean/build",
   "command": "/usr/bin/g++ -DOcean_EXPORTS -DSPDLOG_FWRITE_UNLOCKED -I/home/Neo/GameEngine/Ocean/Engine/include -I/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include -g -std=gnu++20 -fPIC -o Engine/CMakeFiles/Ocean.dir/src/Log.cpp.o -c /home/Neo/GameEngine/Ocean/Engine/src/Log.cpp",
   "file": "/home/Neo/GameEngine/Ocean/Engine/src/Log.cpp",
   "output": "/home/Neo/GameEngine/Ocean/build/Engine/CMakeFiles/Ocean.dir/src/Log.cpp.o"

@@ -3,6 +3,29 @@
 #include "Ocean/Log.h"
 #include "spdlog/spdlog.h"
 
+//------------------- Cross-Platform Support ----------------
+#ifdef _WIN32
+    #define OCEAN_PLATFORM_WINDOWS
+#elif defined(__APPLE__)
+    #define OCEAN_PLATFORM_MACOS
+#elif defined(__linux__)
+    #define OCEAN_PLATFORM_LINUX
+#else
+    #error Unsuppoeted platform
+#endif
+
+// DLL export macro
+#ifdef OCEAN_PLATFORM_WINDOWS
+    #ifdef OCEAN_BUILD_DLL
+        #define OCEAN_API __declspec(dllexport)
+    #else
+        #define OCEAN_API __declspec(dllimport)
+    #endif
+#else
+    #define OCEAN_API
+#endif
+// ---------------------------------------------------------
+
 // ---------------------- Logging macros --------------------
 #define OCEAN_DEFAULT_ENGINE_LOGGER_NAME "OceanEnginelogger"
 #define OCEAN_DEFAULT_CLIENT_LOGGER_NAME "OceanClientlogger"
