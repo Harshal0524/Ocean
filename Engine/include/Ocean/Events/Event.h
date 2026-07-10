@@ -8,7 +8,6 @@
 namespace Ocean {
 
     //Events are currently blocking and must be dealt with immediately
-
     enum class EventType 
     {
         None = 0,
@@ -29,7 +28,11 @@ namespace Ocean {
         EventCategoryMouseButton    = BIT(4)
     };
 
-    //TODO Write a Ocean_api event class
+    #define EVENT_CLASS_TYPE(type) static EventType GetStaticType() { return EventType::##type; }\
+                                virtual EventType GetEventType() const override { return GetStaticType(); }\
+                                virtual const char* GetName() const override { return #type; }
+                            
+    #define EVENT_CLASS_CATEGORY(categery) virtual int GetCategoryFlags() const override { return categery; }
     class OCEAN_API Event
     {
         friend class EventDispatcher;
