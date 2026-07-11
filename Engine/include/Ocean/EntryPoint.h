@@ -2,7 +2,7 @@
 
 #include "Ocean/Log.h"
 #include "Ocean/Application.h"
-#include "Ocean/Core.h"
+#include "Ocean/Core/Core.h"
 
 int main(int argc, char** argv) {
     Ocean::Log::Init();

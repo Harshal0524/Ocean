@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Ocean/Core.h"
+#include "Ocean/Core/Core.h"
 #include "Ocean/Log.h"
 
 namespace Ocean {
