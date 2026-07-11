@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Event.h"
-#include "Ocean/Core.h"
+#include "Ocean/Core/Core.h"
 #include <sstream>
 #include <string>
 

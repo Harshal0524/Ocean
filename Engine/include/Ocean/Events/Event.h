@@ -1,8 +1,9 @@
 #pragma once
 
-#include "Ocean/Core.h"
+#include "Ocean/Core/Core.h"
 
 #include <functional>
+#include <ostream>
 #include <string>
 
 namespace Ocean {
@@ -28,9 +29,9 @@ namespace Ocean {
         EventCategoryMouseButton    = BIT(4)
     };
 
-    #define EVENT_CLASS_TYPE(type) static EventType GetStaticType() { return EventType::##type; }\
-                                virtual EventType GetEventType() const override { return GetStaticType(); }\
-                                virtual const char* GetName() const override { return #type; }
+    #define EVENT_CLASS_TYPE(type) static EventType GetStaticType() { return EventType::type; }\
+								virtual EventType GetEventType() const override { return GetStaticType(); }\
+								virtual const char* GetName() const override { return #type; }
                             
     #define EVENT_CLASS_CATEGORY(categery) virtual int GetCategoryFlags() const override { return categery; }
     class OCEAN_API Event
@@ -61,12 +62,12 @@ namespace Ocean {
         {
         }
         
-        template<typename T>
-        bool Dispatch(EventFn<T> func)
+        template<typename T, typename F>
+        bool Dispatch(const F& func)
         {
             if (m_Event.GetEventType() == T::GetStaticType())
             {
-                m_Event.m_Handled = func(*(T*)&m_Event);
+                m_Event.m_Handled |= func(static_cast<T&>(&m_Event));
                 return true;
             }
             return false;
@@ -74,4 +75,9 @@ namespace Ocean {
     private:
         Event& m_Event;
     };
+
+    inline std::ostream& operator<<(std::ostream& os, const Event& e)
+    {
+        return os << e.ToString();
+    }
 }
