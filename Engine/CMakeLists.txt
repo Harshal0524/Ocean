@@ -9,6 +9,7 @@ add_library(Ocean SHARED
 
 target_link_libraries(Ocean PUBLIC
     spdlog::spdlog_header_only
+    glfw
 )
 
 target_include_directories(Ocean PUBLIC

@@ -16,7 +16,8 @@
 		],
 		"files" : 
 		[
-			"Engine/CMakeLists.txt"
+			"Engine/CMakeLists.txt",
+			"build/_deps/glfw-src/src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -36,9 +37,24 @@
 				"parent" : 0
 			},
 			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 225,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 237,
+				"parent" : 3
+			},
+			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 14,
+				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -53,6 +69,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "spdlog_header_only::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@fa9f4482d3a2b070f206"
 		}
 	],
 	"compileGroups" : 
@@ -77,12 +97,16 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 6,
 					"path" : "/home/Neo/GameEngine/Ocean/Engine/include"
 				},
 				{
 					"backtrace" : 2,
 					"path" : "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/Neo/GameEngine/Ocean/build/_deps/glfw-src/include"
 				}
 			],
 			"language" : "CXX",
@@ -101,12 +125,23 @@
 			]
 		}
 	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@fa9f4482d3a2b070f206"
+		}
+	],
 	"id" : "Ocean::@8f69bdd092c897d92c1e",
 	"interfaceCompileDependencies" : 
 	[
 		{
 			"backtrace" : 2,
 			"id" : "spdlog_header_only::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@fa9f4482d3a2b070f206"
 		}
 	],
 	"interfaceLinkLibraries" : 
@@ -114,6 +149,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "spdlog_header_only::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@fa9f4482d3a2b070f206"
 		}
 	],
 	"link" : 
@@ -123,6 +162,25 @@
 			{
 				"fragment" : "-shared",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "_deps/glfw-build/src/libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-ldl",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
@@ -132,6 +190,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "spdlog_header_only::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@fa9f4482d3a2b070f206"
 		}
 	],
 	"name" : "Ocean",

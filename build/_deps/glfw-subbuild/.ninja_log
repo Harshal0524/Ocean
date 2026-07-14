@@ -1,0 +1,21 @@
+# ninja log v7
+0	11	1784006892918792715	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	1338fbfd3468c8fe
+0	11	1784006892918792715	/home/Neo/GameEngine/Ocean/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	1338fbfd3468c8fe
+1	5367	1784007345502749911	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	fa496009fd6efa70
+1	5367	1784007345502749911	/home/Neo/GameEngine/Ocean/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	fa496009fd6efa70
+5367	5377	1784007345503749921	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	348280f80c7813c6
+5367	5377	1784007345503749921	/home/Neo/GameEngine/Ocean/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	348280f80c7813c6
+5377	5385	1784007345521750099	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	893021e7c6401182
+5377	5385	1784007345521750099	/home/Neo/GameEngine/Ocean/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	893021e7c6401182
+5385	5394	1784007345530750188	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	34ccf90c07d8098b
+5385	5394	1784007345530750188	/home/Neo/GameEngine/Ocean/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	34ccf90c07d8098b
+5394	5403	1784007345539750277	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	a5e2a9b8b10f90cb
+5394	5403	1784007345539750277	/home/Neo/GameEngine/Ocean/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	a5e2a9b8b10f90cb
+5403	5412	1784007345547750356	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	8cc0fee0a6290d7c
+5403	5412	1784007345547750356	/home/Neo/GameEngine/Ocean/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	8cc0fee0a6290d7c
+5412	5421	1784007345557750454	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	945b6f621baa558d
+5412	5421	1784007345557750454	/home/Neo/GameEngine/Ocean/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	945b6f621baa558d
+5421	5434	1784007345569750573	CMakeFiles/glfw-populate-complete	fea5a314d428ce7f
+5421	5434	1784007345569750573	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	fea5a314d428ce7f
+5421	5434	1784007345569750573	/home/Neo/GameEngine/Ocean/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete	fea5a314d428ce7f
+5421	5434	1784007345569750573	/home/Neo/GameEngine/Ocean/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	fea5a314d428ce7f
