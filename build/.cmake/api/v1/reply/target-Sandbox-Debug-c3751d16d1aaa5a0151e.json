@@ -15,7 +15,9 @@
 		],
 		"files" : 
 		[
-			"Sandbox/CMakeLists.txt"
+			"Sandbox/CMakeLists.txt",
+			"Engine/CMakeLists.txt",
+			"build/_deps/glfw-src/src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -33,6 +35,30 @@
 				"file" : 0,
 				"line" : 5,
 				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 225,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 237,
+				"parent" : 5
 			}
 		]
 	},
@@ -73,6 +99,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/home/Neo/GameEngine/Ocean/build/_deps/spdlog-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/Neo/GameEngine/Ocean/build/_deps/glfw-src/include"
 				}
 			],
 			"language" : "CXX",
@@ -94,6 +124,10 @@
 	[
 		{
 			"backtrace" : 2,
+			"id" : "glfw::@fa9f4482d3a2b070f206"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "Ocean::@8f69bdd092c897d92c1e"
 		}
 	],
@@ -113,6 +147,25 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "Engine/libOcean.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "_deps/glfw-build/src/libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-ldl",
 				"role" : "libraries"
 			}
 		],
